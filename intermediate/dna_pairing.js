@@ -1,5 +1,4 @@
-// Creates base DNA pairs based on string. 
-
+/* Creates base DNA pairs based on string. */
 function pairElement(str) {
 
   // Lookup table with base pair maping
