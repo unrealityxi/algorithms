@@ -1,20 +1,9 @@
 
 function sumFibs(num) {
-  
-  // first check fibs edge cases && hardcode results
-  if (num <= 0){
-    return 0;
-  }
-  else if (num == 1){
-    return 0;
-  }
-  else if (num == 2) {
-    return 2;
-  }
-  
-  let sum = 2;
-  let prev = 1; 
-  let current = 2; 
+
+  let sum = 0;
+  let prev = 0; 
+  let current = 1; 
   let temp; 
 
   while(current <= num){
@@ -31,9 +20,7 @@ function sumFibs(num) {
     current += prev; 
     // revrite temp with old current value
     prev = temp;
-
   }
-  
   return sum;
 }
 
