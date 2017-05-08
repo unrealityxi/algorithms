@@ -8,10 +8,10 @@ function smallestCommons(arr) {
   let to = Math.max(...arr);
 
   // populate array 
-
   for (let i = from; i<= to; i++){
     nums.push(i);
   }
+  
   // Find grreatest common divisor of a two numbers
   function gcd(a, b){
     return b == 0 ? a : gcd(b, a % b);
