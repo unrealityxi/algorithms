@@ -19,7 +19,7 @@ function insertion_sort(arr){
     // while (arr[i] < arr[j]){
     //   j--
     // }
-    j += 1;
+    // j += 1;
 
 
     // shift members of array one place to the right
