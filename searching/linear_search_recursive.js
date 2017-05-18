@@ -14,7 +14,6 @@ function linearSearch(arr, searchTerm){
     }
     return inner(arr, searchTerm, i - 1);
   }
-
   
   return inner(arr, searchTerm, arr.length -1);
 
